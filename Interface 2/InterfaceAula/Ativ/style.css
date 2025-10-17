@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#tudo{
+    background-color:  #f4f5ff;
+}
+#navbar{
+    background-color: #e9eaf5;
+    padding:0;
+    margin:0%;
+    width: 100%;
+}
+.col{
+    padding:0;
+    margin:0%;
+}
+.container-fluid{
+    background-color: #e9eaf5;
+    padding: 0.5rem;
+    margin: 0%;
+    width: 100%;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    background-color: #d3d7f3;
+}
+div #conteudo-principal{
+   box-shadow: 0 0 10px #9ea3ad;
+   padding: 1rem;
+   margin: auto;
+}
+.card{
+    margin: auto;
+    width: 18rem;   
+}
+#imgUm{
+    margin:0;
+    padding: auto;
+}
+#imgDois{
+    margin:0;
+    padding: auto;
+}
+#imgTres{
+    margin:0;
+    padding: auto;
+}
+p {
+    text-align: justify;
+}
+#txtcard{
+    text-align: left;
+}
+#corpo-card{
+    background-color: #e9eaf5;
+}
+#carouselExample{
+    width: 100%;
+    max-width: 500px;
+    padding: auto;
+}
+div #conteudo-secundario{
+    box-shadow: 0 0 10px  #9ea3ad;
+    padding: 1rem;
+    margin: auto;
+ }
+footer{
+    background-color:#e9eaf5 ;
+    padding: 0.5rem;
+    margin: auto;
+}
+

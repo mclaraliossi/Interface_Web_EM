@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body class="p-4">
+    <!--Alinhamento vertical de textos em div's-->
+    <h3 class="mb-3">Alinhamento vertical de textos</h3> <!--mb é margin bottom-->
+
+    <!--Alinhado em cima-->
+    <div class="d-flex align-items-start bg-light border" style="height: 120px;">
+        <p class="m-2">Texto alinhado ao topo</p>
+    </div>
+
+    <!--Alinhamento no centro-->
+    <div class="d-flex align-items-center bg-light border mt-3" style="height: 120px;">
+        <p class="m-2">Texto alinhado ao centro</p>
+    </div>
+
+    <!--Alinhamento em baixo-->
+    <div class="d-flex align-items-end bg-light border mt-3" style="height: 120px;">
+        <p class="m-2">Texto alinhado ao fim</p>
+    </div>
+
+    <!--Headings semânticos e não semânticos-->
+
+    <h2 class="mt-3 mb-3">Headings semânticos (h1 ao h6)</h2>
+
+    <h1>Esse é o tìtulo H1</h1>
+    <h2>Esse é o tìtulo H2</h2>
+    <h3>Esse é o tìtulo H3</h3>
+    <h4>Esse é o tìtulo H4</h4>
+    <h5>Esse é o tìtulo H5</h5>
+    <h6>Esse é o tìtulo H6</h6>
+
+    <hr class="my-3">
+
+    <h2 class="mb-3"> Outros elementos estilizados com headings</h2>
+
+    <p class="h1">Este é um parágrafo com estilo de h1</p>
+    <span class="h3">Este é um span com estilo de h3</span>
+    <div class="h5 mt-2">Esta é uma div com estilo de h5</div>
+
+    <p><b>Observação:</b> Os primeiros exemplos (h1 até h6) tem função semântica. Já os exemplos abaixo usam
+        apenas o <code>h1</code> até o <code>h6</code> para imitar o visual, mas sem valor semântico</p>
+
+    <hr class="my-3">
+
+    <h2 class="mb-3">Heading normal e display</h2>
+    <!--Heading normal-->
+    <h3>Este é um h3 normal</h3>
+
+    <!--Heading h3 com display-->
+    <h3 class="display-1">Este é um h3 usa um display 1</h3>
+    <h3 class="display-2">Este é um h3 usa um display 2</h3>
+    <h3 class="display-3">Este é um h3 usa um display 3</h3>
+    <h3 class="display-4">Este é um h3 usa um display 4</h3>
+    <h3 class="display-5">Este é um h3 usa um display 5</h3>
+
+    <p><b>Observação:</b> Todos continuam sendo <code>&lt;h3&gt;</code> semânticos</p>
+
+    <hr class="my-3">
+
+    <!--Tags de estilos de forma inline-->
+
+    <div class="container">
+        <h2>Exemplo de Inline Tags</h2>
+        <p>Texto normal com um <mark>trecho destacado</mark> usando a tag <code>&lt;mark&gt;</code></p>
+        <p>Texto com parte <del>removida</del> usando a tag <code>&lt;del&gt;</code></p>
+        <p>Texto em <strong>Negrito</strong> usando a tag <code>&lt;strong&gt;</code></p>
+    </div>
+
+    <hr>
+
+    <h2>Exemplos com classe Bootstrap</h2>
+    <p>Texto normal com um <span class="mark">trecho destacado </span> usando a classe <code>mark</code></p>
+    <p>Texto com parte <span class="text-decoration-line-through">removida</span> usando a classe
+        <code>text-decoration-line-through</code>
+    </p>
+    <p>Texto em <span class="fw-bold">negrito</span> usando a classe
+        <code>fw-bold</code>
+    </p>
+
+    <hr class="my-3">
+
+    <!--Lista sem marcadores-->
+
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!--Lista inline (ótimas para menus)-->
+    <ul class="list-inline">
+        <li class="list-inline-item">Home</li>
+        <li class="list-inline-item">Serviços</li>
+        <li class="list-inline-item">Contatos</li>
+    </ul>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

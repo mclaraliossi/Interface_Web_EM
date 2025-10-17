@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#e9d4ba;
+    color: #333;
+    }
+header{
+    margin: 0;
+    background-color: #83553b;
+    padding: 2rem;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(img/minezin.jpg);
+    background-position: center;
+}
+nav{
+    margin: 0;
+    background-color: #83553b;
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer{
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+    background-color:#83553b;
+    position: relative;
+}
+.ext{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#mai{
+    width: 70%;
+    height: 700px;
+    margin: 1rem;
+    padding:1rem;
+    background-color:#e9d4ba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#men{
+    width: 30%;
+    height: 700px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#e9d4ba;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+#Ip1{
+    width: 40%;
+    margin: 3% 3% 0 5%;
+}
+#Ip2{
+    width: 43%;
+    margin: 3% 3% 0 4%;   
+}
+#sobre{
+    width: 80%;
+    height: 700px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:#e9d4ba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lista{
+    padding: 1rem;
+}
+#sobreImg{
+    width: 20%;
+    height: 700px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:#e9d4ba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#Is1{
+    width: 100%;
+}
+#Is2{
+    width: 100%;
+}
+#contato{
+    width: 80%;
+    height: 700px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:#e9d4ba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contatoImg{
+    width: 20%;
+    height: 700px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:#e9d4ba;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#Ic1{
+    width: 100%;
+}
+#Ic2{
+    width: 100%;
+}
+
+
+
+
+

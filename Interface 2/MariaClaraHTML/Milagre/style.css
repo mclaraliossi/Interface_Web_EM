@@ -1,0 +1,39 @@
+
+.box {
+    width:200px;
+    height: 100px;
+    padding: 20px;
+    margin: 15px;
+    background-color: lightblue;
+}
+
+.box1 {
+    display: block;
+ }
+.box2 {
+    display: inline;
+ }
+.box3 {
+    display: inline-block;
+}
+.container{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.navebar, .sidebar, .content{
+    padding: 15px;
+    margin: 5px;
+}
+.navbar{
+    background-color: #333;
+    color: white;
+}
+.sidebar{
+    background-color: lightgrey;
+    width: 200px;
+}
+.content{
+    flex-grow: 1;
+    background-color: white;
+}

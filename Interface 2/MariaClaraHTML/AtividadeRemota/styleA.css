@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #d9ecc9;
+color: #333;
+}
+header{
+    padding: 3rem;
+    margin: 1rem 7rem 1rem 7rem ;
+    background-color: #c5e295;
+    text-align: center ;
+    font-size: 1.8rem;
+}
+section{
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    background: rgba(226, 252, 193, 0.849);
+    box-shadow: 0 0 10px rgba(0, 0 , 0, 0.1);
+}
+form {
+    text-align: center;
+}
+form button{
+    width: 7rem;
+    background-color:#c5e295;
+    border-color: #607e34;
+    font-size: 1.5rem;
+}
+form label{
+    font-size: 1.5rem;
+}
+form input{
+    color: #607e34;
+    border-color: #607e34;
+    font-size: 1.5rem;
+}

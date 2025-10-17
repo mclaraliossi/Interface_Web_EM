@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .box{
+            height: 100px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            display: flex;
+        }
+        .sm{
+            background-color: blueviolet;
+        }
+        .md{
+            background-color: rgb(42, 9, 73);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4"> Exemplos de breakpoints</h1>
+        <div class="row text-center">
+            <!--Visível apenas em telas pequenas (>=576px e <768px)-->
+            <div class="col-12 d-none d-sm-block d-md-none">
+              <div class="box sm">Pequena >=576px</div>
+            </div>
+            <div class="row text-center">
+                <!--Visível apenas em telas pequenas (>=768px e <992px)-->
+                <div class="col-12 d-none d-md-block d-lg-none">
+                  <div class="box md">Média >=768px</div>
+                </div>
+
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

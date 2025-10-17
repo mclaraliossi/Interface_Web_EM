@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(238, 180, 192);
+
+}
+.titulo{
+    background-color: rgb(238, 180, 192);
+    padding: 4px;
+
+}
+.rounded{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.imagem{
+    width: 900px;
+    align-self: center;
+}
+.galeria{
+    width: 450px;
+    height: 450px;
+    padding: 3px;
+    background-color: rgb(238, 180, 192);
+}

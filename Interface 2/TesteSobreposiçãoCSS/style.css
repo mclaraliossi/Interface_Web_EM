@@ -1,0 +1,13 @@
+.meu-botao{
+    background-color:rgb(188, 231, 152);
+    border-color: rgb(150, 180, 101);
+}
+
+.btn.btn-primary.meu-botao-especifico{
+    background-color:rgb(188, 231, 152);
+    border-color: rgb(150, 180, 101);
+}
+.meu-botao-important{
+    background-color:rgb(231, 226, 152);
+    color: black !important;
+}
