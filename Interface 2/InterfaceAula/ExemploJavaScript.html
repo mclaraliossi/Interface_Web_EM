@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 40px;
+        }
+        #resultado{
+            margin-top: 15px;
+            font-size: 22px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assistente de Elogio</h1>
+    <p>Digite seu nome</p>
+    <input type="text" id="nomeInput" placeholder="Seu nome aqui...">
+    <hr>
+    <button id="btnGerar">Gerar elogio</button>
+    <hr>
+    <div id="resultado"></div>
+
+    <script>
+        //criar as variáveis
+
+        //lista(array) contendo vários elogios
+        let elogios = [
+            "você é incrivel!",
+            "tem uma mente brilhante!",
+            "você é mais legal que wi-fi grátis!",
+            "você faz a diferença no mundo",
+            "você tem um futuro brilhante te esperando! ",
+            "você é um cocozão!"
+        ]
+
+        //pegando o campo texto pelo id e usando document.getElementById()
+        let campoNome = document.getElementById("nomeInput");
+
+        //pegando o botão pelo id 
+        let botao = document.getElementById("btnGerar");
+
+        //pegando a div onde vamos mostrar o resultado
+        let resultado = document.getElementById("resultado");
+
+        //criando um evento para o botão com addEventListener
+        botao.addEventListener("click", function () {
+            let nome = campoNome.value;
+
+            //verifica se o usuário deixou o campo vazio
+            if (nome === "") {
+                resultado.innerText = "Por favor, digite um nome"
+                return;
+            }
+
+            //escolhendo um elogio aleatório
+            let indice = Math.floor(Math.random() * elogios.length);
+
+            //exibindo o resultado na tela
+            resultado.innerHTML = `${nome}, ${elogios[indice]}`;
+        })
+
+
+    </script>
+</body>
+
+</html>
